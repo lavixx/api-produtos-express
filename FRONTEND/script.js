@@ -34,7 +34,7 @@ class Produto {
 }
 
 // MUDANÇA PARA A ARQUITETURA CLIENT-SERVER (BACKEND)
-const API_URL = "http://localhost:3000/produtos";
+const API_URL = "https://api-produtos-express-one.vercel.app/produtos";
 
 // REQUISIÇÃO POST - Enviar dados ao servidor
 document.getElementById("produto-form").addEventListener("submit", async function (e) {
